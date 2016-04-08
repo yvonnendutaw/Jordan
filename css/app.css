@@ -1,31 +1,45 @@
-body {
-    background-image: url(../assets/bg.jpg);
-    width: 100%;
-    background-size: cover;
-    position: relative;
-}
-.large-12 {}
-.header {
-    /* border: solid; */
-    color: #F89541;
-    text-align: center;
-    padding: 3%;
-    width: 100%;
-    font-weight: 800;
-    background-color: #292B35;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background-color: rgba(129, 124, 124, 0.32);
-    /*dim the background*/
-}
-#text2 {
-    color: white;
-    margin-top: 20%;
-    /* width: 100%; */
-}
+    body {
+        background-image: url(../assets/bg.jpg);
+        width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+    .large-12 {}
+    .header {
+        /* border: solid; */
+        color: #F89541;
+        text-align: center;
+        padding: 3%;
+        width: 100%;
+        font-weight: 800;
+        background-color: #292B35;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background-color: rgba(129, 124, 124, 0.32);
+        /*dim the background*/
+    }
+    #text2 {
+        color: white;
+        margin-top: 15%;
+        text-align: center;
+        /* width: 100%; */
+    }
+    #text1 {
+        color: white;
+        margin-top: 15%;
+        text-align: center;
+    }
+    #circle {
+        margin-top: 15%;
+        width: 32%;
+        align-content: center;
+    }
+    #png {
+        text-align: center;
+    }

@@ -4,8 +4,10 @@
         background-size: cover;
         position: relative;
     }
-    .large-12 {}
-    .header {
+    #container {
+        width: 100%;
+    }
+    #container .header {
         /* border: solid; */
         color: #F89541;
         text-align: center;
@@ -26,19 +28,17 @@
     }
     #text2 {
         color: white;
-        margin-top: 15%;
         text-align: center;
-        /* width: 100%; */
     }
     #text1 {
         color: white;
-        margin-top: 15%;
+        margin-top: %;
         text-align: center;
     }
     #circle {
-        margin-top: 15%;
-        width: 32%;
-        align-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
     }
     #png {
         text-align: center;

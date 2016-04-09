@@ -4,10 +4,7 @@
         background-size: cover;
         position: relative;
     }
-    #container {
-        width: 100%;
-    }
-    #container .header {
+    #header {
         /* border: solid; */
         color: #F89541;
         text-align: center;
@@ -29,11 +26,13 @@
     #text2 {
         color: white;
         text-align: center;
+        margin: 5% 0%;
     }
     #text1 {
         color: white;
         margin-top: %;
         text-align: center;
+        margin: 5% 0%;
     }
     #circle {
         align-items: center;
@@ -42,4 +41,24 @@
     }
     #png {
         text-align: center;
+    }
+    #text {
+        margin: 7% 0%;
+    }
+    .button.large {
+        font-size: 1.25rem;
+        padding: 0%;
+        border-radius: 16%;
+        width: 13%;
+        background-color: darkblue;
+        border: 1px solid;
+        margin: 6%;
+    }
+    footer {
+        color: white;
+        height: 30%;
+        background-color: grey;
+    }
+    span {
+        border-right: solid 1px black;
     }

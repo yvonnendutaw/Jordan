@@ -2,6 +2,7 @@
         background-image: url(../assets/bg.jpg);
         width: 100%;
         background-size: cover;
+        height: auto;
     }
     #header {
         /* border: solid; */
@@ -83,7 +84,6 @@
     .main {
         margin: 0;
         max-width: 100%;
-        height: auto;
     }
     .row .row {
         margin-left: 0rem;

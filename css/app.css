@@ -3,6 +3,7 @@
         width: 100%;
         background-size: cover;
         height: auto;
+        font-family: 'Droid Sans', sans-serif;
     }
     #header {
         /* border: solid; */
@@ -84,6 +85,7 @@
     .main {
         margin: 0;
         max-width: 100%;
+        font-family: 'Droid Sans', sans-serif;
     }
     .row .row {
         margin-left: 0rem;
